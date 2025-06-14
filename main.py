@@ -74,6 +74,18 @@ st.markdown(
         text-align: center;
         margin-top: 20px;
     }
+
+    @media only screen and (max-width: 768px) {
+    .product-card {
+        width: 48% !important;
+        margin: 1%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .product-image {
+        aspect-ratio: 1 / 1;}
+    }
+
     </style>
     """,
     unsafe_allow_html=True,
