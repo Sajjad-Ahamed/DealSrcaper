@@ -19,7 +19,7 @@ st.markdown(
         padding: 20px;
         width: 100%;
         text-align: center;
-        font-size: 50px;
+        font-size: 35px;
         font-weight: bold;
         border-radius: 2px;
     }
