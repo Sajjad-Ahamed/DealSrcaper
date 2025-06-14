@@ -77,7 +77,7 @@ st.markdown(
 
     @media only screen and (max-width: 768px) {
     .product-card {
-        width: 48% !important;
+        width: 40% !important;
         margin: 1%;
         display: inline-block;
         vertical-align: top;
