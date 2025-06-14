@@ -7,7 +7,7 @@ import sqlite3
 st.set_page_config(page_title="DealScraper", page_icon="🛒")
 
 # Display the logo at the top (adjust path if needed)
-st.image(r"./logo.jpeg", use_container_width=True)
+st.image(r"logo.jpeg", use_container_width=True)
 
 # Add custom CSS styles
 st.markdown(
@@ -80,7 +80,7 @@ st.markdown(
 )
 
 # Page Title
-st.markdown('<div class="black-strip"> Deals Scraper </div>', unsafe_allow_html=True)
+st.markdown('<div class="black-strip"> Find the best deals online </div>', unsafe_allow_html=True)
 
 # Store and Category Selection
 stores = ["Flipkart", "Amazon", "Paytm", "Foodpanda", "Freecharge", "Paytmmall"]
